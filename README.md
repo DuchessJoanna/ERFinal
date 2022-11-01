@@ -20,3 +20,9 @@ So whenever you change aspects of the above, make sure to re-upload your version
 Whenever you are working on some aspect of the project, send a short message in the Discord chat notifying us of what your planned work is;
 this will alleviate overlap.
 =-=
+
+FILES IN FOLDERS
+Whenever you upload a file, which you want to be in a folder which doesn't exist yet, do the following:
+Create a dummy file in Github and in the section at the top for the name put in the "folder/name", this will make Github create a new folder.
+EX: I want to make a folder called models, so I make a new file in Github and name it models/dummy.
+Then you can go ahead and delete the dummy file and upload the actual files into the newly created folder.
