@@ -23,7 +23,7 @@ public class DespawnWallControl : MonoBehaviour {
 	
 	
 	IEnumerator waiter() {
-		int waitTime = 1;
+		int waitTime = 4;
 		
 		yield return new WaitForSeconds(waitTime);
 		

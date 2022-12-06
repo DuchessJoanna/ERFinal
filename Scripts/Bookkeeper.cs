@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Bookkeeper : MonoBehaviour {
 	public GameObject Self, Car0Spawner, Wheel0Spawner, Bolt0Spawner;
+	//public GameObject Bolt1Spawner, Bolt2Spawner, Bolt3Spawner, Bolt4Spawner;
 	private Component[] CarMove;
 	private Component[] WheelMove;
 	private Component[] BoltMove;
@@ -27,6 +28,12 @@ public class Bookkeeper : MonoBehaviour {
 		CarMove[0] = Car0Spawner.GetComponent(typeof(SpawnAndMove));
 		WheelMove[0] = Wheel0Spawner.GetComponent(typeof(SpawnAndMove));
 		BoltMove[0] = Bolt0Spawner.GetComponent(typeof(SpawnAndMove));
+		/*
+		BoltMove[1] = Bolt1Spawner.GetComponent(typeof(SpawnAndMove));
+		BoltMove[2] = Bolt2Spawner.GetComponent(typeof(SpawnAndMove));
+		BoltMove[3] = Bolt3Spawner.GetComponent(typeof(SpawnAndMove));
+		BoltMove[4] = Bolt4Spawner.GetComponent(typeof(SpawnAndMove));
+		*/
 		
 		int i = 0;
 		foreach (SpawnAndMove carControl in CarMove) {
